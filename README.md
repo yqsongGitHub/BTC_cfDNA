@@ -18,16 +18,15 @@ figSup.R                     | Fig. S3a, Fig. S3b, Fig. S4a, Fig. S4b, Fig. S5a,
 We employed the allele fraction variance (AFV) metric as a measure of similarity between cfDNA samples and WBC samples. We aimed to identify somatic variants in cfDNA tumors and blood tissue variants using a minimum depth cut-off of 200. We treated allele frequency values of genomic sites as independent and identically distributed random variables with a common distribution function that indicates the fraction of tumor-derived cfDNAs. To correct for sequencing errors and germline variants, we used the WBC sample as a control when calculating the variant allele frequency (VAF). For each patient, we calculated AFV using variant allele frequencies. We generated a scatter plot for meaningful genomic sites, with the VAF of a tumor sample on the Y axis and the VAF of a paired normal or blood sample on the X axis. Next, we created a diagonal line on which the points have the same VAF between both samples.
 
 <p align="center">
-<img align="center" src="https://github.com/BTC_AFV/images/Schematic.png">
+<img align="center" src="https://github.com/yqsongGitHub/BTC_cfDNA/blob/main/images/AFV_Schematic.png">
 </p>   
 
-Example data for testing is available at [BTC_AFV/example](https://github.com/BTC_AFV/images/).
+Example data for testing is available at [BTC_AFV/example](https://github.com/yqsongGitHub/BTC_cfDNA/tree/main/example).
 
 #### One sample
 ```
 dat <- read.csv("./example/Cholangiocarcinoma/CJY_cfDNA1.csv")
 AFV(dat[,3],dat[,4])
-
 ```
 
 #### Multiple samples
@@ -47,13 +46,12 @@ for(i in samples){
   df0 <- rbind(df0,df)
 }
 AFV_re <- df0
-
 ```
 --------
 
 ## Questions & Answers
 Please submit a github issue with any questions or if you experience any issues/bugs.
-- Create a new [issue](https://github.com/BTC_AFV/issues).
+- Create a new [issue](https://github.com/yqsongGitHub/BTC_cfDNA/issues).
 
 --------
 ## Warning   
