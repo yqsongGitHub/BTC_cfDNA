@@ -1,0 +1,238 @@
+#Patient Identifier	CRDB_ADJ_TXT	CRDB_NOSYSTXT	CRDB_PRIOR_RX	CRDB_BRAINMET	CRDB_ECOG	Other Patient ID	12-245 Part A Consented	12-245 Part C Consented	Patient Current Age	Religion	Sex	Ethnicity Category	Pediatric Case Indicator	Diagnosis Age	Sex Reported by DMT	Overall Status Reported by DMT	Overall Survival Months Reported by DMT	Disease Free Status	Disease Free (Months)	Neoplasm Histologic Type Name	CRDB_CONSENT_DATE_DAYS	CRDB_SURVIVAL_STATUS	CRDB_TREATMENT_END_DAYS	CRDB_OFF_STUDY_DAYS	Overall Status	Overall Survival Months	Sample Name
+#Identifier to uniquely specify a patient.	Has the patient received adjuvant systemic therapy?	What is the number of prior systemic therapies (Inclusion of endocrine, cytotoxic, biologic therapies)?	Has the patient received prior radiotherapy?	Does the patient have brain metastases?	What is the patient's ECOG status?	Legacy DMP patient identifier (DMPnnnn)	12-245 Part A Consented Status	12-245 Part C Consented	Patient Current Age	Religion	Sex	The text for reporting information about ethnicity.	Indication on whether this case is a pediatric patient or not	Age at which a condition or disease was first diagnosed.	Sex Reported by DMT	Overall Status reported by DMT	Overall Survival Months Reported by DMT	Disease free status since initial treatment.	Disease free (months) since initial treatment.	Text term for the structural pattern of cancer cells used to define a microscopic diagnosis.	12-245 consent date.	The patient's survival status.	The patient's 12-245 treatment end date.	The patient's 12-245 off study date.	Overall Status	Overall Survival Months	Sample Name respective to Patient Id
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	NUMBER	STRING	NUMBER	STRING	NUMBER	STRING	NUMBER	STRING	STRING	NUMBER	STRING
+#0	0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+PATIENT_ID	CRDB_ADJ_TXT	CRDB_NOSYSTXT	CRDB_PRIOR_RX	CRDB_BRAINMET	CRDB_ECOG	OTHER_PATIENT_ID	PARTA_CONSENTED_12_245	PARTC_CONSENTED_12_245	AGE_CURRENT	RELIGION	SEX	ETHNICITY	PED_IND	AGE	SEX_DMT	OS_STATUS_DMT	OS_MONTHS_DMT	DFS_STATUS	DFS_MONTHS	HISTOLOGICAL_DIAGNOSIS	CRDB_CONSENT_DATE_DAYS	CRDB_SURVIVAL_STATUS	CRDB_TREATMENT_END_DAYS	CRDB_OFF_STUDY_DAYS	OS_STATUS	OS_MONTHS	SAMPLE_NAME
+P-0000743	YES	1	NO	NO	1	DMP0684	YES	NO	48	BAPTIST	Female	Black/AA	No								17734	Dead	17853	17853	 	 	 
+P-0001255	YES	1	YES	NO	0	DMP1167	YES	NO	57	NONE	Female	White	No								20764	Dead	20935	20935	1:DECEASED	16.88706366	P-0001255-T01-IM3
+P-0001675	YES	1	NO	NO	1	DMP1547	YES	NO	67	JEWISH	Male	White	No								24258	Dead	24533	24533	1:DECEASED	10.67761807	P-0001675-T01-IM3
+P-0001783						DMP1642	YES	NO	54	CHRISTIAN	Female	Black/AA	No								19514	Dead	19756		1:DECEASED	18.98973306	P-0001783-T01-IM3
+P-0001804						DMP1815	YES	NO	68	CATHOLIC/ROMAN	Female	White	No								22294	Alive			0:LIVING	173.2402464	P-0001804-T01-IM3
+P-0001954						DMP1895	YES	NO	60	CATHOLIC/ROMAN	Female	White	No								21438	Dead	22229		 	 	 
+P-0002200	YES	1	NO	NO	1		YES	NO	69	NONE	Female	White	No								24696	Dead	25376		1:DECEASED	37.05954825	P-0002200-T01-IM3
+P-0002361	YES	1	NO	NO	1	DMP2309	YES	NO	53	CATHOLIC/ROMAN	Female	White	No								19427	Dead	19498	19498	 	 	 
+P-0003012							YES	NO	47	OTHER	Female	White	No								16925	Dead	17504		1:DECEASED	19.31827515	P-0003012-T01-IM3
+P-0003289							YES	NO	71	CATHOLIC/ROMAN	Female	White	No								25548	Dead	26063		1:DECEASED	25.26488706	P-0003289-T02-IM5
+P-0003329							YES	NO	49	CATHOLIC/ROMAN	Female	White	No								16739	Alive			1:DECEASED	49.21560575	P-0003329-T01-IM5
+P-0003363							YES	NO	58	CATHOLIC/ROMAN	Female	White	No								21213	Dead	21402	21402	1:DECEASED	20.46817248	P-0003363-T01-IM5
+P-0003461	YES	1	YES	NO	0		YES	NO	65	JEWISH	Female	White	No								23883	Dead	24055	24055	1:DECEASED	52.00821355	P-0003461-T02-IM5
+P-0003612							YES	NO	51	NONE	Male	White	No								18655	Dead	18901	18901	 	 	 
+P-0004513	YES	1	NO	NO	1		YES	NO	72	JEWISH	Female	White	No								26445	Dead	26593	26593	 	 	 
+P-0004894							YES	NO	59	CATHOLIC/ROMAN	Female	White	No								21074	Dead	21668	21668	 	 	 
+P-0004899							YES	NO	71	CHRISTIAN	Male	White	No								25175	Dead	26080		 	 	 
+P-0005186							YES	NO	69	CATHOLIC/ROMAN	Female	White	No								25200	Dead	25544		1:DECEASED	11.49897331	P-0005186-T01-IM5
+P-0005521	YES	3	NO	NO			YES	NO	72	CATHOLIC/ROMAN	Female	White	No								25830	Dead	26357		 	 	 
+P-0005800							YES	NO	69	OTHER	Male		No								25175	Dead	25325	25325	 	 	 
+P-0005955	NO	1	NO	NO	0		YES	NO	57	NONE	Male	White	No								19203	Alive			 	 	 
+P-0005992	YES	1	NO	NO	0		YES	NO	58	NONE	Male		No								21086	Dead	21308		 	 	 
+P-0006131							NO	NO	64	CATHOLIC/ROMAN	Female	White	No												1:DECEASED	12.12320329	P-0006131-T01-IM5
+P-0006250	YES	1	NO	NO	1		YES	NO	45	CATHOLIC/ROMAN	Female	Black/AA	No								16384	Dead	16444	16444	1:DECEASED	7.326488706	P-0006250-T01-IM5
+P-0006430							YES	NO	68	NONE	Female	White	No								23718	Alive			 	 	 
+P-0006812							YES	NO	77	NONE	Male		No								25703	Alive			 	 	 
+P-0007071							YES	NO	71	NONE	Female	Asian: Far East/Indian	No								25759	Dead	25979		 	 	 
+P-0007298							YES	NO	73	CATHOLIC/ROMAN	Male	White	No								24425	Alive			0:LIVING	81.51129363	P-0007298-T02-IM6
+P-0007326							YES	NO	70	CATHOLIC/ROMAN	Female	White	No								25244	Dead	25700		 	 	 
+P-0007360	YES	3	NO	NO	1		YES	NO	76	CATHOLIC/ROMAN	Female	White	No								27679	Dead	28064		1:DECEASED	57.82340862	P-0007360-T01-IM5
+P-0008494							YES	NO	76	NONE	Male	White	No								27696	Dead	27759		 	 	 
+P-0008519							YES	YES	53	CATHOLIC/ROMAN	Female	White	No								17049	Alive			 	 	 
+P-0008778							YES	NO	54	OTHER	Male	White	No								19334	Dead	20021		 	 	 
+P-0008907							YES	NO	65	HINDU	Male	Asian: Far East/Indian	No								23693	Dead	23823		1:DECEASED	4.796714579	P-0008907-T01-IM5
+P-0009061							YES	YES	63	JEWISH	Female	White	No								22227	Alive			 	 	 
+P-0009713							YES	NO	70	CATHOLIC/ROMAN	Female	White	No								25727	Dead	25924		1:DECEASED	19.8110883	P-0009713-T01-IM5
+P-0009913							YES	NO	77	OTHER	Male	White	No								27529	Dead	28348		 	 	 
+P-0009967							YES	NO	68	CATHOLIC/ROMAN	Female	White	No								24802	Dead	25051		1:DECEASED	14.81724846	P-0009967-T01-IM5
+P-0010532							YES	NO	65	NONE	Female	Asian: Far East/Indian	No								23344	Dead	23753		1:DECEASED	13.73305955	P-0010532-T01-IM5
+P-0010789							YES	NO	90	JEWISH	Female	White	No								32388	Alive			0:LIVING	47.37577002	P-0010789-T01-IM5
+P-0011103							YES	NO	52	CATHOLIC/ROMAN	Male	White	No								18977	Dead	19092		1:DECEASED	28.15605749	P-0011103-T01-IM5
+P-0011391							YES	NO	76	NONE	Male	White	No								27766	Dead	27920		1:DECEASED	5.35523614	P-0011391-T01-IM5
+P-0012101							YES	NO	80	NONE	Female	White	No								29266	Dead	29532		 	 	 
+P-0012257							YES	NO	66	NONE	Male	White	No								23760	Dead	24364	24364	1:DECEASED	44.97741273	P-0012257-T03-IM6
+P-0012374							YES	YES	51	NONE	Male	White	No								18178	Dead	18877	18877	 	 	 
+P-0012777							YES	YES	54	MUSLIM	Male	Asian: Far East/Indian	No								18631	Dead	20007		1:DECEASED	49.51129363	P-0012777-T01-IM5
+P-0012909							NO	NO	83	CATHOLIC/ROMAN	Female	White	No												0:LIVING	7.490759754	P-0012909-T01-IM5
+P-0013303							YES	YES	57	CATHOLIC/ROMAN	Female	White	No												1:DECEASED	17.7412731	P-0013303-T01-IM5
+P-0013449							YES	NO	76	UNKNOWN	Female		No												 	 	 
+P-0013849							YES	YES	69	JEWISH	Female	White	No								24840	Dead	25370	25370	1:DECEASED	39.26078029	P-0013849-T02-IM6
+P-0014253							YES	YES	74	JEWISH	Female	White	No								26098	Alive			 	 	 
+P-0014302							YES	YES	55	HINDU	Female	Asian: Far East/Indian	No								19489	Alive			 	 	 
+P-0014332							YES	YES	61	BAPTIST	Female	Black/AA	No								20444	Alive			 	 	 
+P-0015119							YES	YES	53	HINDU	Female	Asian: Far East/Indian	No												 	 	 
+P-0015153							YES	YES	64	BAPTIST	Female	Black/AA	No								23076	Dead	23408		 	 	 
+P-0015796							YES	YES	57	JEWISH	Male	White	No								19464	Alive			 	 	 
+P-0015979							YES	YES	80	CATHOLIC/ROMAN	Female	White	No												0:LIVING	14.29158111	P-0015979-T01-IM6
+P-0016568							YES	NO	66	CATHOLIC/ROMAN	Male	White	No								22166	Alive			0:LIVING	62.68583162	P-0016568-T01-IM6
+P-0016706							YES	YES	67	CATHOLIC/ROMAN	Female	White	No								22660	Alive			 	 	 
+P-0017104							YES	YES	58	JEWISH	Female	White	No												 	 	 
+P-0017251							YES	YES	49	HINDU	Female	Asian: Far East/Indian	No												1:DECEASED	12.38603696	P-0017251-T01-IM6
+P-0017669							YES	NO	76	UNKNOWN	Female	White	No												 	 	 
+P-0017786							NO	NO	86	CATHOLIC/ROMAN	Female	White	No												 	 	 
+P-0017902							NO	NO	79	CATHOLIC/ROMAN	Female	White	No												 	 	 
+P-0018180							YES	YES	76	NONE	Male	White	No								27090	Alive			 	 	 
+P-0018667							YES	YES	56	CATHOLIC/ROMAN	Male	White	No								20435	Dead	20666		1:DECEASED	8.509240246	P-0018667-T01-IM6
+P-0018705							YES	YES	62	CATHOLIC/ROMAN	Female	Black/AA	No												 	 	 
+P-0019203							YES	YES	63	NONE	Female	Asian: Far East/Indian	No								21143	Alive			 	 	 
+P-0019680							YES	NO	84	CHRISTIAN	Female	White	No								30734	Dead	30870		1:DECEASED	4.698151951	P-0019680-T01-IM6
+P-0020335							YES	YES	38	UNKNOWN	Female	White	No								13740	Dead	13967		1:DECEASED	8.082135524	P-0020335-T01-IM6
+P-0020608							YES	YES	78	CATHOLIC/ROMAN	Female	White	No								28264	Dead	28507		 	 	 
+P-0020683							YES	NO	75	NONE	Male	Asian: Far East/Indian	No								27476	Dead	27608		 	 	 
+P-0020821							YES	YES	46	CHRISTIAN	Female	White	No								15105	Alive			0:LIVING	61.07597536	P-0020821-T01-IM6
+P-0021443							YES	YES	63	JEWISH	Male	White	No								22339	Alive			 	 	 
+P-0022347							YES	NO	66	METHODIST	Female	White	No								24166	Dead	24466	24466	 	 	 
+P-0022388							YES	YES	66	NONE	Male	White	No								24164	Dead	24280		 	 	 
+P-0022683							YES	YES	66	CHRISTIAN	Female	White	No								23968	Dead	24154		1:DECEASED	6.570841889	P-0022683-T01-IM6
+P-0022735							YES	YES	65	CATHOLIC/ROMAN	Female	White	No								21944	Alive			 	 	 
+P-0022803							YES	YES	74	CATHOLIC/ROMAN	Female	White	No								25097	Alive			0:LIVING	62.68583162	P-0022803-T01-IM6
+P-0023198							YES	NO	88	CATHOLIC/ROMAN	Female	White	No								32351	Dead	32493	32493	 	 	 
+P-0023317							YES	YES	52	CHRISTIAN	Male	White	No								17717	Alive			1:DECEASED	51.67967146	P-0023317-T01-IM6
+P-0023369							YES	YES	74	PROTESTANT	Female	White	No								27204	Dead	27227	27227	1:DECEASED	0.854209446	P-0023369-T01-IM6
+P-0024531							YES	YES	76	JEWISH	Male	White	No								27250	Alive			1:DECEASED	32.13141684	P-0024531-T01-IM6
+P-0024788							YES	YES	55	NONE	Female	White	No								20141	Dead	20429	20429	 	 	 
+P-0024897							YES	YES	66	NONE	Female	Black/AA	No								23726	Alive			1:DECEASED	17.7412731	P-0024897-T01-IM6
+P-0025013							YES	YES	61	CHRISTIAN	Female	Black/AA	No								22471	Dead	22593		 	 	 
+P-0025239							YES	NO	70	CATHOLIC/ROMAN	Female	White	No								25662	Dead	25709		1:DECEASED	24.77207392	P-0025239-T01-IM6
+P-0025698							YES	NO	63	NONE	Female	White	No								22853	Dead	23090	23090	 	 	 
+P-0025981							YES	NO	46	CHRISTIAN	Female	Black/AA	No								16724	Dead	16934	16934	 	 	 
+P-0026004							YES	YES	58	CHRISTIAN	Female	White	No								20880	Dead	21358	21358	1:DECEASED	21.15811088	P-0026004-T01-IM6
+P-0026403							YES	NO	88	UNKNOWN	Female	Black/AA	No								30518	Alive			 	 	 
+P-0026544							YES	YES	86	NONE	Male	Asian: Far East/Indian	No								31613	Alive			 	 	 
+P-0026813							YES	YES	74	CATHOLIC/ROMAN	Male	White	No								26815	Alive			 	 	 
+P-0026814							YES	YES	54	CATHOLIC/ROMAN	Female	White	No								19648	Alive			 	 	 
+P-0027856							YES	YES	81	PROTESTANT	Male	Asian: Far East/Indian	No								29487	Alive			 	 	 
+P-0028085							YES	YES	70	NONE	Female	White	No								25676	Dead	25767	25767	1:DECEASED	3.186858316	P-0028085-T01-IM6
+P-0028286							YES	NO	54	UNKNOWN	Female		No												 	 	 
+P-0028601							YES	YES	64	CATHOLIC/ROMAN	Female		No								21844	Alive			 	 	 
+P-0028837							YES	YES	58	CATHOLIC/ROMAN	Female	White	No								21169	Alive			 	 	 
+P-0028912							YES	YES	61	PROTESTANT	Female	White	No								21980	Alive			1:DECEASED	94.91581109	P-0028912-T01-IM6
+P-0029385							YES	NO	80	NO VALUE ENTERED	Female	Black/AA	No												 	 	 
+P-0029452							NO	NO	75	NONE	Female	White	No												1:DECEASED	6.308008214	P-0029452-T01-IM6
+P-0029520							YES	YES	67	CATHOLIC/ROMAN	Female	White	No								23276	Alive			 	 	 
+P-0030548							NO	NO	52	METHODIST	Male	White	No												 	 	 
+P-0030875							YES	YES	77	OTHER	Female	White	No								26796	Alive			 	 	 
+P-0031233							YES	NO	73	EPISCOPALIAN	Male	White	No								26566	Alive			 	 	 
+P-0032011							YES	YES	73	CATHOLIC/ROMAN	Female	Asian: Far East/Indian	No								26856	Alive			1:DECEASED	5.880903491	P-0032011-T01-IM6
+P-0032114							YES	YES	78	NO VALUE ENTERED	Male		No												 	 	 
+P-0032128							NO	NO	48	NO VALUE ENTERED	Male	Asian: Far East/Indian	No												 	 	 
+P-0032180							NO	NO	71	NO VALUE ENTERED	Female		No												 	 	 
+P-0032503							YES	YES	60	JEHOVAH WITNESS	Female	Black/AA	No								20427	Alive			 	 	 
+P-0032962							NO	NO	73	NO VALUE ENTERED	Female		No												 	 	 
+P-0033326							YES	NO	72	CHRISTIAN	Female	White	No												1:DECEASED	123.301848	P-0033326-T01-IM6
+P-0033407							YES	YES	54	CATHOLIC/ROMAN	Male	Hispanic	No												1:DECEASED	2.168377823	P-0033407-T01-IM6
+P-0033444							YES	YES	81	CATHOLIC/ROMAN	Female	White	No												1:DECEASED	5.453798768	P-0033444-T01-IM6
+P-0034116							YES	YES	69	OTHER	Female	Black/AA	No												 	 	 
+P-0034356							YES	YES	64	CATHOLIC/ROMAN	Male	White	No												 	 	 
+P-0034408							YES	YES	50	NONE	Female	White	No												1:DECEASED	40.93634497	P-0034408-T01-IM6
+P-0034732							YES	NO	78	NO VALUE ENTERED	Male		No												 	 	 
+P-0035387							YES	YES	69	NONE	Female	White	No												1:DECEASED	6.209445585	P-0035387-T01-IM6
+P-0035627							YES	YES	51	CHRISTIAN	Female	White	No												 	 	 
+P-0035719							YES	YES	68	NONE	Female	White	No												1:DECEASED	12.12320329	P-0035719-T01-IM6
+P-0035740							NO	NO	60	NO VALUE ENTERED	Male		No												 	 	 
+P-0036003							YES	YES	76	CATHOLIC/ROMAN	Female	White	No												 	 	 
+P-0036644							YES	YES	80	JEWISH	Female	White	No												 	 	 
+P-0036684							YES	YES	58	CATHOLIC/ROMAN	Male	White	No												1:DECEASED	9.166324435	P-0036684-T01-IM6
+P-0036709							YES	NO	57	MUSLIM	Male		No												0:LIVING	39.12936345	P-0036709-T01-IM6
+P-0037763							YES	YES	79	PROTESTANT	Female	White	No												1:DECEASED	47.77002053	P-0037763-T01-IM6
+P-0037799							YES	YES	44	NO VALUE ENTERED	Female		No												 	 	 
+P-0037976							NO	NO	67	UNKNOWN	Male	Asian: Far East/Indian	No												 	 	 
+P-0039291							YES	NO	54	SEVEN DAY ADVENTIST	Female	Black/AA	No												 	 	 
+P-0039786							YES	YES	73	CATHOLIC/ROMAN	Female	White	No												0:LIVING	33.14989733	P-0039786-T01-IM6
+P-0039789							YES	YES	67	CATHOLIC/ROMAN	Female	Black/AA	No												 	 	 
+P-0039806							YES	YES	45	GREEK ORTHODOX	Female	White	No												1:DECEASED	18.52977413	P-0039806-T01-IM6
+P-0040326							YES	YES	57	CATHOLIC/ROMAN	Male	White	No												1:DECEASED	7.293634497	P-0040326-T01-IM6
+P-0040538							YES	NO	65	NONE	Female	Black/AA	No												 	 	 
+P-0040835							YES	NO	70	CATHOLIC/ROMAN	Female	White	No												 	 	 
+P-0041067							YES	YES	56	PENTECOSTAL	Female	Black/AA	No												1:DECEASED	117.0595483	P-0041067-T01-IM6
+P-0041832							YES	NO	72	NONE	Male	White	No												 	 	 
+P-0042328							YES	YES	74	NONE	Female	White	No												 	 	 
+P-0042507							YES	YES	76	CATHOLIC/ROMAN	Male	Hispanic	No												1:DECEASED	35.05544148	P-0042507-T01-IM6
+P-0042589							YES	YES	63	NONE	Female	Black/AA	No												 	 	 
+P-0043800							YES	YES	71	CHRISTIAN	Female	White	No												 	 	 
+P-0043959							YES	YES	66	PROTESTANT	Male	Asian: Far East/Indian	No												1:DECEASED	7.950718686	P-0043959-T01-IM6
+P-0044586							YES	YES	78	CATHOLIC/ROMAN	Male	White	No												 	 	 
+P-0044842							YES	NO	55	CATHOLIC/ROMAN	Female	White	No												0:LIVING	30.58726899	P-0044842-T01-IM6
+P-0045706							YES	YES	43	CATHOLIC/ROMAN	Female	White	No												 	 	 
+P-0045819							YES	YES	61	CATHOLIC/ROMAN	Male		No												1:DECEASED	17.57700205	P-0045819-T01-IM6
+P-0045994							YES	YES	76	CATHOLIC/ROMAN	Female	White	No												0:LIVING	29.33880903	P-0045994-T01-IM6
+P-0046005							YES	YES	55	CATHOLIC/ROMAN	Female	White	No												0:LIVING	29.40451745	P-0046005-T01-IM6
+P-0046225							YES	NO	65	CATHOLIC/ROMAN	Male	White	No												1:DECEASED	12.05749487	P-0046225-T01-IM6
+P-0046777							YES	YES	75	NONE	Female	White	No												0:LIVING	123.4661191	P-0046777-T01-IM6
+P-0046790							YES	YES	72	PENTECOSTAL	Female	White	No												1:DECEASED	23.39219713	P-0046790-T01-IM6
+P-0047241							YES	YES	82	CATHOLIC/ROMAN	Female	White	No												0:LIVING	26.25051335	P-0047241-T01-IM6
+P-0047805							YES	NO	76	PRESBYTERIAN	Male	White	No												0:LIVING	38.20944559	P-0047805-T01-IM6
+P-0047817							YES	YES	60	BUDDHIST	Female	Asian: Far East/Indian	No												 	 	 
+P-0047881							YES	NO	65	CATHOLIC/ROMAN	Male	Hispanic	No												 	 	 
+P-0047958							YES	YES	46	CATHOLIC/ROMAN	Female	White	No												1:DECEASED	24.31211499	P-0047958-T01-IM6
+P-0048237							YES	YES	59	CATHOLIC/ROMAN	Male	White	No												0:LIVING	25.46201232	P-0048237-T01-IM6
+P-0048287							YES	YES	88	CATHOLIC/ROMAN	Female	White	No												1:DECEASED	4.895277207	P-0048287-T01-IM6
+P-0048622							YES	YES	76	NONE	Female	White	No												 	 	 
+P-0048830							YES	NO	59	UNKNOWN	Male	Asian: Far East/Indian	No												 	 	 
+P-0049337							YES	YES	61	PENTECOSTAL	Male	Black/AA	No												 	 	 
+P-0049556							NO	NO	71	NONE	Female	White	No												 	 	 
+P-0049569							YES	YES	78	CATHOLIC/ROMAN	Female	Black/AA	No												 	 	 
+P-0049628							YES	NO	52	NONE	Female	Asian: Far East/Indian	No												 	 	 
+P-0049685							YES	YES	85	NONE	Female	White	No												1:DECEASED	16.82135524	P-0049685-T01-IM6
+P-0049765							YES	YES	59	PROTESTANT	Female	Black/AA	No												1:DECEASED	20.66529774	P-0049765-T01-IM6
+P-0049952							YES	YES	56	HINDU	Female	Asian: Far East/Indian	No												1:DECEASED	28.5174538	P-0049952-T01-IM6
+P-0050017							YES	YES			Female	Asian: Far East/Indian													0:LIVING	42.0862423	P-0050017-T02-IM6
+P-0050682							YES	NO	60	PROTESTANT	Male	White	No												 	 	 
+P-0050703							YES	YES	62	UNKNOWN	Female	Black/AA	No												 	 	 
+P-0050727							YES	YES	75	CHRISTIAN ORTHODOX	Female	White	No												0:LIVING	30.9486653	P-0050727-T01-IM6
+P-0051308							YES	YES	45	NONE	Male	White	No												 	 	 
+P-0051968							YES	YES	76	CATHOLIC/ROMAN	Female	White	No												 	 	 
+P-0052994							YES	YES	85	CATHOLIC/ROMAN	Male	White	No												0:LIVING	47.77002053	P-0052994-T01-IM6
+P-0053001							YES	YES	79	HINDU	Female	Asian: Far East/Indian	No												 	 	 
+P-0053124							YES	NO	63	UNKNOWN	Female	White	No												0:LIVING	21.88090349	P-0053124-T01-IM6
+P-0053736							YES	YES	45	CATHOLIC/ROMAN	Male	White	No												 	 	 
+P-0053784							YES	YES	84	CATHOLIC/ROMAN	Female	Black/AA	No												1:DECEASED	22.47227926	P-0053784-T01-IM6
+P-0054044							YES	YES	71	CATHOLIC/ROMAN	Female	Asian: Far East/Indian	No												 	 	 
+P-0054196							NO	NO	75	NO VALUE ENTERED	Male		No												 	 	 
+P-0054531							YES	YES	82	JEWISH	Male	White	No												 	 	 
+P-0054691							YES	NO	68	CATHOLIC/ROMAN	Female	White	No												 	 	 
+P-0054725							YES	YES	75	CATHOLIC/ROMAN	Female	White	No												0:LIVING	20.23819302	P-0054725-T01-IM6
+P-0054921							YES	YES	71	CATHOLIC/ROMAN	Female	Hispanic	No												 	 	 
+P-0055810							YES	NO	76	NONE	Male	White	No												 	 	 
+P-0056362							YES	YES	46	NONE	Male	Black/AA	No												 	 	 
+P-0057201							YES	YES	81	NONE	Male	White	No												0:LIVING	15.80287474	P-0057201-T02-IM6
+P-0057931							YES	YES	80	CATHOLIC/ROMAN	Male	White	No												 	 	 
+P-0058106							YES	NO	68	CATHOLIC/ROMAN	Female	White	No												0:LIVING	15.83572895	P-0058106-T01-IM6
+P-0058245							YES	YES	53	CHRISTIAN ORTHODOX	Female	Asian: Far East/Indian	No												 	 	 
+P-0058336							YES	YES	52	CHRISTIAN	Female	White	No												0:LIVING	14.16016427	P-0058336-T01-IM6
+P-0058337							YES	NO	71	CHRISTIAN ORTHODOX	Female	White	No												1:DECEASED	2.924024641	P-0058337-T01-IM6
+P-0058389							YES	YES	69	CATHOLIC/ROMAN	Female	White	No												0:LIVING	14.02874743	P-0058389-T01-IM6
+P-0058568							YES	YES	74	CATHOLIC/ROMAN	Female	White	No												0:LIVING	24.08213552	P-0058568-T01-IM7
+P-0058735							YES	YES	50	NONE	Male	White	No												 	 	 
+P-0059429							YES	YES	55	NONE	Female	Hispanic	No												 	 	 
+P-0059450							YES	YES	60	UNKNOWN	Female	Asian: Far East/Indian	No												0:LIVING	27.137577	P-0059450-T01-IM7
+P-0059708							NO	NO	70	CATHOLIC/ROMAN	Male	Hispanic	No												 	 	 
+P-0059752							YES	YES	81	CATHOLIC/ROMAN	Female	White	No												 	 	 
+P-0059946							YES	YES	87	CATHOLIC/ROMAN	Female	White	No												1:DECEASED	13.17453799	P-0059946-T01-IM7
+P-0060212							YES	YES	71	BUDDHIST	Male	Asian: Far East/Indian	No												 	 	 
+P-0060294							YES	YES	61	NO VALUE ENTERED	Female	Hispanic	No												 	 	 
+P-0060813							YES	NO	61	NONE	Female	White	No												1:DECEASED	3.613963039	P-0060813-T01-IM7
+P-0060875							YES	YES	74	NONE	Female	White	No												 	 	 
+P-0060914							YES	YES	40	CATHOLIC/ROMAN	Male	Asian: Far East/Indian	No												 	 	 
+P-0061876							YES	YES	71	NONE	Female		No												 	 	 
+P-0064091							YES	YES	61	PRESBYTERIAN	Female	White	No												 	 	 
+P-0064187							YES	NO	56	UNKNOWN	Female	White	No												0:LIVING	10.71047228	P-0064187-T01-IM7
+P-0064426							YES	YES	67	PENTECOSTAL	Female	Black/AA	No												 	 	 
+P-0064615							YES	YES	74	CHRISTIAN	Female		No												0:LIVING	42.51334702	P-0064615-T01-IM7
+P-0065460							YES	YES	75	UNKNOWN	Male		No												0:LIVING	7.523613963	P-0065460-T02-IM7
+P-0065796							YES	YES	38	JEWISH	Male	White	No												 	 	 
+P-0066195							YES	YES	57	NONE	Female	White	No												1:DECEASED	12.32032854	P-0066195-T01-IM7
+P-0066399							YES	YES	84	CATHOLIC/ROMAN	Male	Hispanic	No												 	 	 
+P-0066922							YES	YES	69	METHODIST	Female	Hispanic	No												 	 	 
+P-0067287							YES	NO	52	OTHER	Female	White	No												 	 	 
+P-0067660							YES	YES	70	CATHOLIC/ROMAN	Female	White	No												 	 	 
+P-0067922							YES	YES	79	CATHOLIC/ROMAN	Female	White	No												 	 	 
+P-0068466							YES	YES	72	CATHOLIC/ROMAN	Female	Black/AA	No												1:DECEASED	2.39835729	P-0068466-T02-IM7
+P-0068610							YES	YES	67	PROTESTANT	Male	Asian: Far East/Indian	No												0:LIVING	4.533880903	P-0068610-T01-IM7
+P-0068716							YES	YES	79	CHRISTIAN	Female	Asian: Far East/Indian	No												 	 	 
+P-0069521							YES	YES	79	NONE	Female		No												 	 	 
+P-0069596							YES	YES	77	GREEK ORTHODOX	Male	White	No												0:LIVING	21.15811088	P-0069596-T01-IM7
+P-0070157							YES	YES	63	NONE	Female	White	No												0:LIVING	5.880903491	P-0070157-T01-IM7
+P-0070313							YES	YES	58	CATHOLIC/ROMAN	Female	Black/AA	No												 	 	 
+P-0070372							YES	YES	66	CATHOLIC/ROMAN	Female	White	No												 	 	 
+P-0070637							YES	YES	59	BUDDHIST	Male	Asian: Far East/Indian	No												 	 	 
+P-0070652							YES	YES	65	PROTESTANT	Female	White	No												 	 	 
+P-0070840							YES	YES	51	CATHOLIC/ROMAN	Female	Black/AA	No												 	 	 
+P-0071078							YES	YES	79	CATHOLIC/ROMAN	Male	White	No												0:LIVING	1.80698152	P-0071078-T01-IM7
+P-0071226							YES	YES	63	CHRISTIAN	Female	Black/AA	No												 	 	 
